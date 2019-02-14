@@ -10,17 +10,13 @@ There are 3 objects in this repo:
 
 
 
-
-
-
 current_inventory.parquet
 ==========================================
 
 This data set was obtained from http://archive.ics.uci.edu/ml/datasets/Online+Retail.  The source of the data is:
 Dr Daqing Chen, Director: Public Analytics group. chend '@' lsbu.ac.uk, School of Engineering, London South Bank University, London SE1 0AA, UK.
 
-This dataset was modified for the purpose of the Databricks Delta Webinar. Roughly 80,000 additional rows were generated and added to the dataset with some columns removed to simulate an inventory dataset.
-
+This dataset was modified by the addition of 80,000 generated additional rows with some columns removed to simulate an inventory dataset.
 
 
 ### Data Set Information
@@ -40,19 +36,6 @@ Country: Country name. Nominal, the name of the country where each customer resi
 
 ### License and/or Citation
 
-This data set is licensed under the following license:
-
 Applicable citations:
-[insert citation, if from an educational source, e.g.:
-Dua, D. and Karra Taniskidou, E. (2017). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
-
-BiBTeX citation: 
-@misc{Dua:2017 ,
-author = "Dheeru, Dua and Karra Taniskidou, Efi",
-year = "2017",
-title = "{UCI} Machine Learning Repository",
-url = "http://archive.ics.uci.edu/ml",
-institution = "University of California, Irvine, School of Information and Computer Sciences" }
-]
 
 Daqing Chen, Sai Liang Sain, and Kun Guo, Data mining for the online retail industry: A case study of RFM model-based customer segmentation using data mining, Journal of Database Marketing and Customer Strategy Management, Vol. 19, No. 3, pp. 197–208, 2012 (Published online before print: 27 August 2012. doi: 10.1057/dbm.2012.17).
