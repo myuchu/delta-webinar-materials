@@ -12,7 +12,7 @@ There are 3 objects in this repo:
 
 
 
-==========================================
+
 current_inventory.parquet
 ==========================================
 
