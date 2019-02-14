@@ -19,20 +19,21 @@ current_inventory.parquet
 This data set was obtained from http://archive.ics.uci.edu/ml/datasets/Online+Retail.  The source of the data is:
 Dr Daqing Chen, Director: Public Analytics group. chend '@' lsbu.ac.uk, School of Engineering, London South Bank University, London SE1 0AA, UK.
 
+This dataset was modified for the purpose of the Databricks Delta Webinar. Roughly 80,000 additional rows were generated and added to the dataset with some columns removed to simulate an inventory dataset.
+
 
 
 ### Data Set Information
 
 
-This is a transnational data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers.
+This was originally a transnational data set that contained all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail. It was modified to simulate an inventory stock.
 
 
 Attribute Information:
 
-StockCode: Product (item) code. Nominal, a 5-digit integral number uniquely assigned to each distinct product. 
+StockCode: Product (item) code. Nominal, a string of characters uniquely assigned to each distinct product. 
 Description: Product (item) name. Nominal. 
 Quantity: The quantities of each product (item) per transaction. Numeric.	
-InvoiceDate: Invice Date and time. Numeric, the day and time when each transaction was generated. 
 UnitPrice: Unit price. Numeric, Product price per unit in sterling. 
 Country: Country name. Nominal, the name of the country where each customer resides.
 	
